@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "lovers";
+    src: url("../fonts/LoversQuarrel-Regular.ttf");
+    
+}
+
+@font-face {
+    font-family: "elsie";
+    src: url("../fonts/ElsieSwashCaps-Black.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#menu-vertical ul{
+    list-style: none;
+    font-family: "lovers";
+}
+
+#menu-vertical ul li{
+    display: block;
+}
+
+header{
+    height: 100vh;
+    background-image: url(/images/Forja.png);
+    background-size: cover;
+    font-size: 70px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+a{
+    color: #FF6B00;
+}
+
+
+h1{
+    font-family: "lovers";
+    color: #00A3FF;
+    font-size: 200px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h2{
+    font-family: "lovers";
+    color: white;
+    font-size: 150px;
+    font-weight: normal;
+}
+
+h3{
+    font-family: "lovers";
+    color: #00A3FF;
+    font-size: 150px;
+    font-weight: normal;
+}
+
+
+#concerto{
+    background-color: #313B4A;
+    width: 100vw;
+    height: 100%;
+}
+
+.texto{
+    font-size: 30px;
+    padding: 100px 94px;
+}
+
+p{
+    color: white;
+    font-family: "elsie";
+}
+
+
+.ordem{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+}
+
+.block img{
+    margin-bottom: 10px;
+}
+
+.vulcao{
+    text-align: center;
+    
+}
+
+.vulcao p{
+    text-align: left !important;
+}
