@@ -25,14 +25,71 @@
 }
 
 header{
+    width: 100%;
     height: 100vh;
-    background-image: url(/images/Forja.png);
+    background-image: url(../images/Forja.png);
     background-size: cover;
     font-size: 70px;
     display: flex;
     align-items: flex-start;
 }
 
+/*DEUS HEFESTO*/
+
+#hefesto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#hefesto-linha{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hefesto-coluna{
+    font-size: 30px;
+    height: 300px;
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.2);
+}
+
+.hefesto-coluna:hover{
+    cursor: pointer;
+}
+
+.hefesto-coluna img{
+    width: 100px; margin-bottom: 30px;
+}
+
+.hefesto-coluna h4{
+    font-family: "lovers";
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+#concerto{
+    background-color: #313B4A;
+    width: 100vw;
+    height: 100%;
+}
 
 
 
@@ -67,11 +124,6 @@ h3{
 }
 
 
-#concerto{
-    background-color: #313B4A;
-    width: 100vw;
-    height: 100%;
-}
 
 .texto{
     font-size: 30px;
